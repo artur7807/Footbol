@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Pacifico&display=swap');
+
+body{
+    font-family: 'IM Fell Great Primer', serif;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    background-color: #FF7400;
+}
+
+header{
+    background-color:#FF7400 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1
+}
+
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.logoimg {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+ul{
+    display: flex;
+    align-content: center;
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.icon{
+    width: 65%;
+}
+
+.banner{
+    background-image: url(wp11536251\ 1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 300px;
+}
+
+.bannerp{
+font-size: 45px;
+color:aliceblue ;
+}
+
+.btn {
+ padding: 10px;   
+width:200px ;
+height: 25px;;
+border-radius: 25px;
+font-size: 30px;
+background-color: rgba(240, 230, 217, 0.253);
+color: aliceblue;
+border:aliceblue 3px solid;
+}
+footer {
+    background-color: #FF7400;
+    color: aliceblue;
+    padding: 30px;
+
+}
+
